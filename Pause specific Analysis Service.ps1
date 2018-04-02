@@ -22,6 +22,4 @@ workflow pause-gsi-x-aas
 	$status = Get-AzureRMAnalysisServicesServer -ResourceGroupName $RGroup -Name $AASName
 	write-output "Azure Analysis Service $($status.Name) now has the status of $($status.State)"
 	
-	
-	
 }
